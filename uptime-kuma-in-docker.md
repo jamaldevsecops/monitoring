@@ -7,8 +7,8 @@ services:
     container_name: uptime-kuma
     restart: always
     environment:
-      ADMIN_EMAIL: jamal.hossain@apsissolutions.com
-      ADMIN_PASSWORD: "13F&b%"
+      ADMIN_EMAIL: jamal
+      ADMIN_PASSWORD: "StroingPassword"
     volumes:
       - uptime-kuma-data:/app/data
     ports:
